@@ -9,6 +9,7 @@ Objetivo: reemplazar un prompt largo por un flujo corto y repetible.
 
 ## Pasos
 
+0. Si lo que se arranca es una librería/framework propio para publicar en GitHub (no una app interna), usar `oss-publish` en vez de este flujo desde el principio.
 1. Invocar `memory-vault` para cargar contexto previo (si el repo ya tiene historial en el vault).
 2. Preguntar solo lo que no se pueda inferir, en una sola tanda, con `AskUserQuestion` cuando aplique:
    - Stack (.NET / Next.js / Python / React / combinación).
